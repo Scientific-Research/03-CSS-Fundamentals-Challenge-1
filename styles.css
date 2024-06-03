@@ -28,19 +28,20 @@ h4 {
   color: #7e7e7e;
 }
 
-div {
+button {
   text-transform: uppercase;
   background-color: black;
   color: white;
   text-align: left;
   font-size: x-large;
-  width: 170px;
+  border-style: none;
 }
 
-div:hover {
+button:hover {
   background-color: white;
   color: black;
   cursor: pointer;
+  border-style: none;
 }
 
 a {
