@@ -45,11 +45,14 @@ button:hover {
   border-style: none;
 }
 
-a {
+/*All four below Pseudo classes: link- visited- hover- active*/
+a:link,
+a:visited {
   color: black;
 }
 
-a:hover {
+a:hover,
+a:active {
   text-decoration: none;
 }
 
