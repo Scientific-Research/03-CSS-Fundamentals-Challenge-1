@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  border: 5px solid black;
+}
+
+h2 {
+  text-align: center;
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.free-shipping {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bolder;
+  color: #7e7e7e;
+}
+
+div {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-size: x-large;
+  width: 170px;
+}
