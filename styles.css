@@ -36,3 +36,21 @@ div {
   font-size: x-large;
   width: 170px;
 }
+
+div:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: square;
+}
