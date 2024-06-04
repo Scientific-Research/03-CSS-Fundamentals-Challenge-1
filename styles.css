@@ -43,7 +43,7 @@ h4 {
 }
 
 /* .more-info {
-  margin-bottom: 10px;
+  margin-bottom: 10px; // NOTE: adding a margin-bottom to an ancher will not work!
 } */
 
 .product-details {
@@ -59,7 +59,9 @@ button {
   font-size: x-large;
   border-style: none;
   cursor: pointer;
-  width: 825px;
+  /* width: 825px;*/
+  /* OR */
+  width: 100%;
   padding: 15px;
 }
 
