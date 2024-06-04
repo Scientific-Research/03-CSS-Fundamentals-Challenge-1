@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
   line-height: 1.4;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,8 +10,8 @@ body {
 
 .container {
   border: 5px solid black;
-  width: 900px;
-  margin: 50px auto;
+  width: 825px;
+  margin: 100px auto;
 }
 
 h2 {
@@ -17,12 +19,6 @@ h2 {
   background-color: #f7f7f7;
   text-transform: uppercase;
   padding: 20px;
-  margin-top: 0px;
-  /* padding-bottom: 10px; */
-}
-
-img {
-  margin-top: -20px;
 }
 
 h4 {
@@ -32,7 +28,6 @@ h4 {
 .price {
   font-weight: 700;
   font-size: x-large;
-  margin-top: 0px;
 }
 
 .free-shipping {
@@ -40,7 +35,20 @@ h4 {
   font-size: small;
   font-weight: bolder;
   color: #777;
-  margin-top: -27px;
+  margin-bottom: 20px;
+}
+
+.dress-up {
+  margin-bottom: 7px;
+}
+
+/* .more-info {
+  margin-bottom: 10px;
+} */
+
+.product-details {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -51,8 +59,8 @@ button {
   font-size: x-large;
   border-style: none;
   cursor: pointer;
-  width: 900px;
-  padding: 20px;
+  width: 825px;
+  padding: 15px;
 }
 
 button:hover {
@@ -73,5 +81,6 @@ a:active {
 
 ul li {
   list-style: square;
-  margin-left: -20px;
+  margin-left: 20px;
+  padding: 5px;
 }
